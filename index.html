@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>宮心劇場：小主求生指南</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <audio id="bgm" autoplay loop>
+    <source src="bgm.mp3" type="audio/mpeg">
+    您的瀏覽器不支援音樂播放。
+  </audio>
+
+  <div id="start-screen" class="start-screen">
+    <h1 class="title">宮心劇場：小主求生指南</h1>
+    <input type="text" id="player-name" placeholder="請輸入你的名號" />
+    <button id="startBtn" class="start-btn">開始遊戲</button>
+  </div>
+
+  <div class="game-wrapper hidden">
+    <h1 class="title">宮心劇場：小主求生指南</h1>
+    <div id="story" class="story-box"></div>
+    <div id="choices" class="choices-box"></div>
+    <div id="ending" class="ending-box hidden"></div>
+    <button id="restartBtn" class="hidden restart-btn">再玩一次</button>
+    <div id="stats" class="stats-box hidden"></div>
+  </div>
+
+  <footer>
+    <p>🎓 通識課期末專題作品 ｜ 2025年</p>
+  </footer>
+</body>
+</html>
