@@ -42,7 +42,9 @@ window.addEventListener('DOMContentLoaded', () => {
     currentUsername = name;
     localStorage.setItem("username", name);
 
-    bgm.play();
+    bgm.play().catch(error => {
+      console.error("無法播放音樂：", error);
+    });
 
     const userRef = ref(database, `players/${currentUsername}`);
     const snapshot = await get(userRef);
