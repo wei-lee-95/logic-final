@@ -42,6 +42,8 @@ window.addEventListener('DOMContentLoaded', () => {
     currentUsername = name;
     localStorage.setItem("username", name);
 
+    bgm.play();
+
     const userRef = ref(database, `players/${currentUsername}`);
     const snapshot = await get(userRef);
 
