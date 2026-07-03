@@ -4,7 +4,7 @@
 
 ## 網頁連結
 
-[https://wei-lee-95.github.io/logic-final/](https://wei-lee-95.github.io/logic-final/)
+[![遊戲主畫面](readme_img.png)](https://wei-lee-95.github.io/logic-final/)
 
 ## 專案特色
 
